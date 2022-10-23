@@ -1,0 +1,6 @@
+# Create animal_count function here.
+def animal_count(d, a):
+    if a in d:
+        d[a] = d[a] +1
+    if a not in d:
+        d[a] = 1
